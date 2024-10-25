@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu li {
+    display: inline-block; 
+    margin: 0 30px;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #685757;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 60px;
+}
+h1 {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 40px;
+    color:#553d61;
+}
+.menu a:hover {
+    color: #007bff;
+}
+#imagen{
+    display: flex;
+    justify-content: center; /* Para centrar horizontalmente */
+    height: 25vh;
+    margin-top: 20px;
+}
+img{
+    max-width: 100%;
+    border-radius: 30px;
+}
+h2{
+    font-family: 'Georgia', serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+p {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    line-height: 1.6;
+    margin: 0 auto; /* Centramos el párrafo */
+    color: #685757;
+}
+#subtitulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#parrafo2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+#parrafo3{
+    margin-top: 30px;
+}
+.socialmedia {
+    display: flex; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    justify-content: center; 
+}
+.socialmedia a img {
+    width: 40px; 
+    height: auto;
+}
+footer p{
+    margin-top: 30px;
+    color: rgb(172, 60, 60);
+    font-weight: bold;
+}
